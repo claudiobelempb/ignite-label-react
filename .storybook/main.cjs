@@ -18,6 +18,7 @@ module.exports = {
     if (configType === 'PRODUCTION') {
       config.base = '/ignite-label-react/';
     }
+
     return config;
   }
 };
